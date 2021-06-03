@@ -2,19 +2,19 @@
   <br/>
   <img src="https://raw.githubusercontent.com/byCedric/office-marathon/main/assets/icon.png" alt="vscode-expo" width="200">
   <br />
-  <h1>Office Marathon</h1>
+  <h1>Travel Diary App</h1>
   <p></p>
-  <p>An example app for <a href="https://docs.expo.io/versions/latest/sdk/location/#background-location-methods">background location</a> tracking in Expo</p>
+  <p>Working off of <a href="https://github.com/byCedric/office-marathon">byCedric's example app</a> for background location tracking in Expo</p>
   <sup>
     <a href="https://github.com/bycedric/office-marathon/blob/master/LICENSE.md">
       <img src="https://img.shields.io/github/license/byCedric/office-marathon?style=flat-square" alt="license" />
     </a>
-    <a href="https://play.google.com/store/apps/details?id=com.bycedric.officemarathon">
+    <!-- <a href="https://play.google.com/store/apps/details?id=com.bycedric.officemarathon">
       <img src="https://img.shields.io/badge/android-play%20store-green?style=flat-square" alt="Android Play store" />
-    </a>
-    <a href="https://expo.io/@bycedric/projects/office-marathon">
+    </a> -->
+    <!-- <a href="https://expo.io/@bycedric/projects/office-marathon">
       <img src="https://img.shields.io/badge/demo-expo.io-lightgrey.svg?style=flat-square" alt="demo" />
-    </a>
+    </a> -->
   </sup>
   <br />
   <br />
@@ -62,13 +62,15 @@ With this app, you can measure your total distance traveled within the office or
 
 Solid tutorial [here.](https://www.youtube.com/watch?v=HdLbavvfflQ&list=PLKrxTdwfEw2WjZ4rfVM_K-RdEJkvWi36u&index=15&t=2531s)
 
-TODO:
+## TODO:
 
 1. Make the location tracking happen at a specific time
 2. Get the locations showing up on screen (may not be necessary, but i want to do it so that I can watch on my phone)
 3. Make "go to settings" button if they don't have location settings set up
+4. Update README
+5. License stuff
 
-Assigning date:
+### Assigning date:
 
 1. they are assigned a random date within the date range specified
 2. When the time is 03:00:00 (in time zone of the survey area) on that date, start location tracking
